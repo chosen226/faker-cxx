@@ -26,6 +26,8 @@ CountryAddressesInfo getAddresses(const Locale& locale)
         return usaAddresses;
     case Locale::pl_PL:
         return polandAddresses;
+    case Locale::ma_MA:
+        return maltaandAddresses;
     case Locale::ru_RU:
         return russiaAddresses;
     case Locale::fr_FR:
